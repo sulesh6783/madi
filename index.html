@@ -65,12 +65,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   :10px;width;250px;">
   <button>search</button>
  <nav>
-   <a href="#">home</a>
-   <a href="#">about</a>
-   <a href="#">tips</a>
-   <a href="#">contact</a>
+   <a href="#home">home</a>
+   <a href="#about">about</a>
+   <a href="#tips">tips</a>
+   <a href="#contact">contact</a>
  </nav> 
  <div class="container"></div>
+  <section id="home">
 <h1>CYBER SECURITY AWARENESS</h1>
 <h2>By Suleiman Ali</h2>
 <img src="baby.jpg.png" width="300" height="300">
@@ -80,12 +81,22 @@ virusi na mashambulizi ya kimtandao kila mtumiaji anatakiwa kutumia
 nenosiri imara na kuepuka kufungua link zisizojulikana ili kulnda
 tarifa zake muhimu.
 </p>
-<a href="#"class="btn">learn more</a>
+<a href="#about"class="btn">learn more</a>
+<h2>about Cyber Security</h2>
+<p>
+   Cyber Security ni mfumo wa ulinzi baina ya computer na mobile device
+     network na data kutoka  cyber attacks  humsaidia mtu binafsi au tasisi
+     kupata habari sahihi juu ya hackers,malware zidi ya kujilinda
+     </p>  
+</section>
+ <section id="tips"> 
 <h3>cyber security Tips</h3>
 <uI>
 <li>Tumia pasword Imara</li>
 <li>Epuka link zisizojulikana</li>
 <li>Sasisha antivirus</li>
+ <li>epuka kuchukua tarifa kwa mtu usie mjua</li>
+  </section>
 </uI>
 <table border="1">
 <tr>
@@ -109,14 +120,13 @@ tarifa zake muhimu.
    <source src="cyber.mp4"type="video/mp4">
    </video>
 <h2>contact</h2>
-<form>
+<form action="https://formspree.oi/f/magqzlvk"method="POST">
   <label>Full name</label><br>
-   <input type="text"placeholder="Enter your name"><br><br>
-    <label>Email</label><br>
-    <input type="Email" placeholder="Enter your email"><br><br>
+   <input type="text"name="name"placeholder="Enter your name">
+   <label>Email</label>
+    <input type="Email"name"email" placeholder="Enter your email">
     <label>Message</label><br>
-    <textarea rows="5"cols="40"placeholder="write"ypur message">
-    </textarea><br><br>
+    <textarea name="message"rows="5"cols="40"placeholder="write"your message"></textarea>
     <input type="submit"value="send message"class="btn">
 </form>
 <h2>our location</h2>
